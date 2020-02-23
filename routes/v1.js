@@ -12,8 +12,8 @@ const authMiddleware = require('../auth/auth-middleware.js');
 const oauthMiddleware = require('../auth/oauth/outh-middleware.js');
 const bearerMiddleware = require('../auth/bearer/bearer-middleware.js');
 const acl = require('../auth/acl/acl-middleware.js');
-const categories = require('../models/categories/categories.js');
-const products = require('../models/products/products.js');
+const categories = require('../models/categories/categories-model.js');
+const products = require('../models/products/products-model.js');
 
 
 /**
